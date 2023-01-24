@@ -1,5 +1,16 @@
 # Esercitazioni
 
+> API DOCS: `https://api.escuelajs.co/docs/#/categories/CategoriesController_getAll`
+
+## Esercitazione 24-01-23:
+
+- Allineate il vostro progetto al mio:
+  - Create un metodo che vi permetta di fetchare con il metodo `GET`
+  - Ottenete la lista delle categorie e visualizzateli in una tabella
+  - Create un componente `<Loader \>` che si visualizzi durante il caricamente dei dati
+  - Predisponete i pulsanti di `rimozione`, `modifica` e `aggiungi`
+- Pushate il nuovo branch, create `Pull Request` e poi mergiate sul `main`
+
 ## Esercitazione 23-01-23:
 
 - Create una nuova repository e inviatemi il link su Slack
