@@ -29,3 +29,10 @@
     }
   }
 }
+
+.active {
+  color: #fa6382;
+  svg path {
+    stroke: #fa6382;
+  }
+}
