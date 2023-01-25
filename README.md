@@ -2,6 +2,11 @@
 
 > API DOCS: `https://api.escuelajs.co/docs/#/categories/CategoriesController_getAll`
 
+## Esercitazione 25-01-23:
+
+- Utilizzate i metodi `POST`, `PUT` e `DELETE` per rispettivamente aggiungere, modificare e rimuovere le categorie...
+  Dopo ogni operazione ricordare di utilizzare il metodo `getData()` per ricaricare la lista delle categorie aggiornata
+
 ## Esercitazione 24-01-23:
 
 - Allineate il vostro progetto al mio:
