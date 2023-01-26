@@ -2,6 +2,11 @@
 
 > API DOCS: `https://api.escuelajs.co/docs/#/categories/CategoriesController_getAll`
 
+## Esercitazione 26-01-23:
+
+- Rivedete tutto il giro delle `props` tra i componenti come visto a lezione.
+- Aggiungere la pagina `PRODUCTS` per listare, modificare ed eliminare i prodotti: i metodi `GET`, `PUT` e `DELETE` rimangono gli stessi...
+
 ## Esercitazione 25-01-23:
 
 - Utilizzate i metodi `POST`, `PUT` e `DELETE` per rispettivamente aggiungere, modificare e rimuovere le categorie...
