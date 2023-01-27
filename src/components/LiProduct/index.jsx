@@ -2,7 +2,7 @@ import { useState } from "react";
 import styles from "./styles.module.scss";
 import { PUT } from "../../libs/HTTP";
 
-const LiProduct = ({ item, deleteElement, reloadItems }) => {
+const LiProduct = ({ item, deleteElement, reloadItems, groupDelete }) => {
   const [formData, setFormData] = useState({
     title: item.title,
     price: item.price,
@@ -41,7 +41,10 @@ const LiProduct = ({ item, deleteElement, reloadItems }) => {
 
   return (
     <div className={styles.main}>
-      <li onClick={() => deleteElement(item.id)}>{item.title}</li>
+      <li onClick={() => deleteElement(item.id)}>
+        <input type="checkbox" onChange={() => groupDelete(item.id)} />
+        {item.title}
+      </li>
       <button onClick={() => setShowForm(!showForm)}>Edit</button>
       {showForm && (
         <form onSubmit={e => submitForm(e)}>

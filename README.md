@@ -2,6 +2,13 @@
 
 > API DOCS: `https://api.escuelajs.co/docs/#/categories/CategoriesController_getAll`
 
+## Esercitazione 27-01-23:
+
+- Create pagina `home` del vostro progetto utilizzando gli `styled component`
+- ricordate di installare la libreria con il seguente comando `npm install --save styled-components`
+- link alla documentazione: `https://styled-components.com/`
+  Buon weekend
+
 ## Esercitazione 26-01-23:
 
 - Rivedete tutto il giro delle `props` tra i componenti come visto a lezione.

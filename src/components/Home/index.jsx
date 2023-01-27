@@ -1,18 +1,26 @@
+import styled from "styled-components";
 import { useState } from "react";
 import PulsanteCounter from "../PulsanteCounter";
+import Title from "../Title";
 import Window from "../Window";
-import styles from "./styles.module.scss";
 
 const Home = () => {
   const [counter, setCounter] = useState(0);
 
-  return (
-    <div className={styles.main}>
-      <h1>Primary Component</h1>
+  const Main = styled.div`
+    width: 100%;
+    background-color: #fff;
+    min-height: 300px;
+    border-radius: 10px;
+    padding: 20px;
+  `;
 
+  return (
+    <Main>
+      <Title title="Home" />
       <Window totale={counter} />
       <PulsanteCounter counter={counter} setCounter={setCounter} />
-    </div>
+    </Main>
   );
 };
 
